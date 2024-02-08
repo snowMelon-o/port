@@ -1,0 +1,159 @@
+/* basic */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+         /* взяли шрифты с google fonts и прописали правило font-family: 'Inter', sans-serif;*/
+    font-family: 'Inter', sans-serif;
+}
+
+/* header */
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    /* это правила для центровочного контейнера */
+}
+
+.header-wrapper{
+    padding-top: 50px;
+    padding-bottom: 0px;
+    display: flex; 
+    margin: 0 auto;
+}
+
+h1{
+    padding-left: 270px
+}
+
+.header-contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.img{
+    border-radius: 50%;
+}
+
+.header_social{
+    display: flex;
+    list-style-type: none;
+}
+
+.header-info{
+    flex-grow: 1;
+    max-width: 76%;
+}
+
+.social_icon_vk, .social_icon_telegram, .social_icon_whatsUp{
+    width: 32px;
+    height: 23px;  
+}
+.info-box{
+    margin-top: 50px;
+    display: flex;
+    background: #F8F8FD;
+    border-radius: 23px;
+    margin-left: 17px;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.info-list > li{
+    padding: 8px;
+    margin-left: 50px;
+    padding-right: 50px;
+    list-style-type: none;
+    color: #9999A3;
+}
+.right > li{
+   color: #2F2F33;
+}
+
+.right{
+    flex-grow: 1;
+}
+
+hr{
+    background-color: #EDEDF9;
+    border: none;
+    height: 1px;
+}
+
+.info-lines-left{
+    margin-left: 12px;
+}
+
+/* main */
+
+.main-wrapper{
+    padding-top: 30px;
+    margin-left: 264px;
+}
+
+.podzagolovki{
+    color: #BCBCC2; 
+    margin-bottom: 30px;
+}
+
+.podzagolovki_2{
+    color: #BCBCC2; 
+    margin-bottom: 18px;
+}
+
+.needMargin264{
+    margin-bottom: 18px;
+}
+
+.needBlackText{
+    color: #2F2F33;
+}
+
+.needPaddingTop20{
+    padding-top: 20px;
+}
+
+.main-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.main-content{
+    max-width: 64%;
+}
+
+.main-list:nth-child(1n){
+    color: #bcbcc2;
+}
+
+.main-text{
+    background-color: #A9A9FD;
+    color: white;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.more{
+    background-color: #F1A9FD;
+    border-radius: 7px;
+    padding: 5px;
+    color: white;
+}
+
+/* skills, language */
+
+.skills, .language, .aboutMe{
+    margin-bottom: 50px;
+}
+
+span{
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #F5F5FA;
+}
